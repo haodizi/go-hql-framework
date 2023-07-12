@@ -1,9 +1,9 @@
 package utils
 
 import (
-	"awesomeProject/conf"
 	"fmt"
 	"github.com/garyburd/redigo/redis"
+	"github.com/haodizi/go-hql-framework/conf"
 )
 
 var RedisConn redis.Conn

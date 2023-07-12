@@ -1,9 +1,9 @@
 package utils
 
 import (
-	conf2 "awesomeProject/conf"
 	"database/sql"
 	"fmt"
+	conf2 "github.com/haodizi/go-hql-framework/conf"
 	_ "github.com/mailru/go-clickhouse/v2"
 )
 
